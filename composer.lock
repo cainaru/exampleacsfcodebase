@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b28b85f95f7cfd8a80f0590a123d91d",
+    "content-hash": "c2b91d2b8eb631999969112e0bfc5a73",
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
@@ -80,6 +80,62 @@
                 "source": "https://github.com/acquia/acquia-cms-starterkit/tree/1.1.10"
             },
             "time": "2024-07-12T12:39:51+00:00"
+        },
+        {
+            "name": "acquia/drs-acsf",
+            "version": "1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acquia/drs-acsf.git",
+                "reference": "8a370bf5569693be68ac823cca6e6e8fe6ee3134"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/drs-acsf/zipball/8a370bf5569693be68ac823cca6e6e8fe6ee3134",
+                "reference": "8a370bf5569693be68ac823cca6e6e8fe6ee3134",
+                "shasum": ""
+            },
+            "require": {
+                "acquia/drupal-recommended-settings": "^1.0",
+                "drupal/acsf": "^2.47.0"
+            },
+            "require-dev": {
+                "acquia/coding-standards": "^1.0",
+                "ergebnis/composer-normalize": "^2.30.2",
+                "phpro/grumphp-shim": "^2.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Acquia\\DrsAcsf\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Acquia  Engineering",
+                    "homepage": "https://www.acquia.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Chandan Singh",
+                    "email": "chandan.singh@acquia.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Acquia recommended acsf drush commands.",
+            "keywords": [
+                "acsf",
+                "drupal"
+            ],
+            "support": {
+                "issues": "https://github.com/acquia/drs-acsf/issues",
+                "source": "https://github.com/acquia/drs-acsf/tree/1.0.0-beta1"
+            },
+            "time": "2024-04-09T14:07:55+00:00"
         },
         {
             "name": "acquia/drupal-environment-detector",
