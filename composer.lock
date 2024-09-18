@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2b91d2b8eb631999969112e0bfc5a73",
+    "content-hash": "857449d230d719ae60557154c6d3d49d",
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
@@ -10564,6 +10564,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "acquia/drs-acsf": 10,
         "drupal/config_sync_without_site_uuid": 10
     },
     "prefer-stable": true,
