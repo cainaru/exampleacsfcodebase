@@ -19,6 +19,7 @@
         "composer/installers": "^2.1",
         "cweagans/composer-patches": "^1.6",
         "drupal/acsf": "^2.79",
+        "drupal/clamav": "^2.0",
         "drupal/config_ignore": "^3.3",
         "drupal/config_split": "^2.0",
         "drupal/config_sync_without_site_uuid": "^1.0@beta",
