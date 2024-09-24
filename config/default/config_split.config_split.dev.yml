@@ -1,0 +1,16 @@
+uuid: 81d392b4-57c7-488b-95fd-38964d41e074
+langcode: en
+status: false
+dependencies: {  }
+id: dev
+label: Dev
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/envs/dev
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }

@@ -1,0 +1,20 @@
+uuid: cacc50ca-bdbc-4b5d-8a84-37165e8be399
+langcode: en
+status: false
+dependencies: {  }
+id: local
+label: Local
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/envs/local
+module:
+  dblog: 0
+theme: {  }
+complete_list:
+  - dblog.settings
+  - views.view.watchdog
+partial_list:
+  - clamav.settings

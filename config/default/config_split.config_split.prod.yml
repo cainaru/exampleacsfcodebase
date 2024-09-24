@@ -1,0 +1,17 @@
+uuid: 712a2357-41e1-4243-9fa6-2c16acfe159b
+langcode: en
+status: false
+dependencies: {  }
+id: prod
+label: Prod
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/envs/prod
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list:
+  - google_tag.container.my_primary

@@ -1,0 +1,23 @@
+uuid: 2e5bc3a5-33d6-4d9a-809e-b0c49b4e347d
+langcode: en
+status: false
+dependencies: {  }
+id: my_primary
+label: 'My Primary'
+weight: 0
+tag_container_ids:
+  - G-xxxxxxxx
+advanced_settings:
+  consent_mode: false
+dimensions_metrics: {  }
+conditions: {  }
+events:
+  custom: {  }
+  generate_lead:
+    value: ''
+    currency: ''
+  login:
+    method: CMS
+  sign_up:
+    method: CMS
+  search: {  }

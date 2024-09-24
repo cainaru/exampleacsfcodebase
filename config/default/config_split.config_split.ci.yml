@@ -1,0 +1,16 @@
+uuid: 574007cc-95da-46bb-88a9-27c8a844ff70
+langcode: en
+status: false
+dependencies: {  }
+id: ci
+label: CI
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/envs/
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }
