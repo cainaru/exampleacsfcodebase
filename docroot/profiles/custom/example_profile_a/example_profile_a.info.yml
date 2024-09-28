@@ -1,0 +1,59 @@
+name: 'Example Profile A'
+type: profile
+description: 'An example profile.'
+core_version_requirement: '^8.8 || ^9 || ^10'
+
+config_install: true
+config_install_path: '../config/default'
+
+install:
+  - acsf
+  - acsf_duplication
+  - acsf_theme
+  - acsf_variables
+  - announcements_feed
+  - automated_cron
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor5
+  - clamav
+  - comment
+  - config
+  - config_ignore
+  - config_split
+  - contact
+  - contextual
+  - datetime
+  - dynamic_page_cache
+  - editor
+  - field
+  - field_ui
+  - file
+  - filter
+  - google_tag
+  - help
+  - history
+  - image
+  - link
+  - menu_link_content
+  - menu_ui
+  - mysql
+  - node
+  - options
+  - path
+  - path_alias
+  - search
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - toolbar
+  - update
+  - user
+  - views_ui
+  - views
+theme:
+  - olivero
+  - claro
