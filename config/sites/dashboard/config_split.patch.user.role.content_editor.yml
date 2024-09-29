@@ -1,0 +1,10 @@
+adding:
+  dependencies:
+    config:
+      - node.type.dashboard_item
+  permissions:
+    - 'create dashboard_item content'
+    - 'delete dashboard_item revisions'
+    - 'delete own dashboard_item content'
+    - 'edit own dashboard_item content'
+removing: {  }
