@@ -1,0 +1,17 @@
+uuid: 50ca04c8-a014-468a-b3f6-e77f70c65572
+langcode: en
+status: false
+dependencies: {  }
+id: dashboard
+label: Dashboard
+description: 'Dashboard site-specific configuration.'
+weight: 1
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/sites/dashboard
+module: {  }
+theme: {  }
+complete_list:
+  - node.type.dashboard_item
+partial_list: {  }

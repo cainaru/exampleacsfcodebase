@@ -1,0 +1,18 @@
+uuid: 19369bcc-513e-4e1d-8076-ece3276c7d6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Dashboard item'
+type: dashboard_item
+description: 'A piece of content that is a dashboard item.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false
