@@ -54,6 +54,6 @@ install:
   - user
   - views_ui
   - views
-theme:
+themes:
   - olivero
   - claro
