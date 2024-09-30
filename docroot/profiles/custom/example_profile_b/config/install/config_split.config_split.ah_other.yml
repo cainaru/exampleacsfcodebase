@@ -1,0 +1,15 @@
+langcode: en
+status: false
+dependencies: {  }
+id: ah_other
+label: 'Ah other'
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/envs/ah_other
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }
+no_patching: false

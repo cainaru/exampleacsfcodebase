@@ -1,0 +1,22 @@
+langcode: en
+status: false
+dependencies: {  }
+id: my_primary
+label: 'My Primary'
+weight: 0
+tag_container_ids:
+  - G-xxxxxxxx
+advanced_settings:
+  consent_mode: false
+dimensions_metrics: {  }
+conditions: {  }
+events:
+  custom: {  }
+  generate_lead:
+    value: ''
+    currency: ''
+  login:
+    method: CMS
+  sign_up:
+    method: CMS
+  search: {  }

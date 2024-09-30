@@ -1,0 +1,5 @@
+mode: simple
+ignored_config_entities:
+  - 'google_tag.container.my_primary:tag_container_ids'
+  - 'system.site:mail'
+  - 'system.site:name'

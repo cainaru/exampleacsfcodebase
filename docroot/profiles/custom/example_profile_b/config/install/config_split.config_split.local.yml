@@ -1,0 +1,20 @@
+langcode: en
+status: false
+dependencies: {  }
+id: local
+label: Local
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/envs/local
+module:
+  dblog: 0
+  devel: 0
+theme: {  }
+complete_list:
+  - dblog.settings
+  - views.view.watchdog
+partial_list:
+  - clamav.settings
+no_patching: false

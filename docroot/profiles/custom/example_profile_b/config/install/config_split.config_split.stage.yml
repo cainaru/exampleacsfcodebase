@@ -1,0 +1,15 @@
+langcode: en
+status: false
+dependencies: {  }
+id: stage
+label: Stage
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/envs/stage
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }
+no_patching: false

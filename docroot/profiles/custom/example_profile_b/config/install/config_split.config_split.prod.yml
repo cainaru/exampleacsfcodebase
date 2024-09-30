@@ -1,0 +1,16 @@
+langcode: en
+status: false
+dependencies: {  }
+id: prod
+label: Prod
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/envs/prod
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list:
+  - google_tag.container.my_primary
+no_patching: false

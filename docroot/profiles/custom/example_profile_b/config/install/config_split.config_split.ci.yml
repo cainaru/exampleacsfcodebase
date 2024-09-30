@@ -1,0 +1,15 @@
+langcode: en
+status: false
+dependencies: {  }
+id: ci
+label: CI
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/envs/
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }
+no_patching: false
