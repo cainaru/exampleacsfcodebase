@@ -294,7 +294,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'uq-cnJq_KVDJ_YIlB3-dG0d1fjdKyCbkMxocRNiABi2D7U-i6dT86uC-nF0XGne_vvvoW0vNwg';
 
 /**
  * Deployment identifier.
@@ -914,3 +914,25 @@ $ddev_settings = dirname(__FILE__) . '/settings.ddev.php';
 if (getenv('IS_DDEV_PROJECT') == 'true' && is_readable($ddev_settings)) {
   require $ddev_settings;
 }
+
+/**
+ * If we are using a Cloud IDE, let's pull in the local.settings.php.
+ */
+use Acquia\DrupalEnvironmentDetector\AcquiaDrupalEnvironmentDetector;
+if (AcquiaDrupalEnvironmentDetector::isAhIdeEnv()) {
+  if (file_exists(DRUPAL_ROOT . '/sites/default/settings/local.settings.php')) {
+    require_once DRUPAL_ROOT . '/sites/default/settings/local.settings.php';
+  }
+}
+$databases['default']['default'] = array (
+  'database' => 'drupal',
+  'username' => 'drupal',
+  'password' => 'drupal',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'isolation_level' => 'READ COMMITTED',
+  'driver' => 'mysql',
+  'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
+  'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
+);
