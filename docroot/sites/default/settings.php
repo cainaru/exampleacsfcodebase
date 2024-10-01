@@ -898,7 +898,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-
+$drs_override_config_directories = TRUE;
 require DRUPAL_ROOT . "/../vendor/acquia/drupal-recommended-settings/settings/acquia-recommended.settings.php";
 /**
  * IMPORTANT.
@@ -913,4 +913,14 @@ require DRUPAL_ROOT . "/../vendor/acquia/drupal-recommended-settings/settings/ac
 $ddev_settings = dirname(__FILE__) . '/settings.ddev.php';
 if (getenv('IS_DDEV_PROJECT') == 'true' && is_readable($ddev_settings)) {
   require $ddev_settings;
+}
+
+/**
+ * If we are using a Cloud IDE, let's pull in the local.settings.php.
+ */
+use Acquia\DrupalEnvironmentDetector\AcquiaDrupalEnvironmentDetector;
+if (AcquiaDrupalEnvironmentDetector::isAhIdeEnv()) {
+  if (file_exists(DRUPAL_ROOT . '/sites/default/settings/local.settings.php')) {
+    require_once DRUPAL_ROOT . '/sites/default/settings/local.settings.php';
+  }
 }
