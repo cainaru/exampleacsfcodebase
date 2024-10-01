@@ -294,7 +294,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'uq-cnJq_KVDJ_YIlB3-dG0d1fjdKyCbkMxocRNiABi2D7U-i6dT86uC-nF0XGne_vvvoW0vNwg';
+$settings['hash_salt'] = '';
 
 /**
  * Deployment identifier.
@@ -924,15 +924,3 @@ if (AcquiaDrupalEnvironmentDetector::isAhIdeEnv()) {
     require_once DRUPAL_ROOT . '/sites/default/settings/local.settings.php';
   }
 }
-$databases['default']['default'] = array (
-  'database' => 'drupal',
-  'username' => 'drupal',
-  'password' => 'drupal',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'isolation_level' => 'READ COMMITTED',
-  'driver' => 'mysql',
-  'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
-  'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
-);
